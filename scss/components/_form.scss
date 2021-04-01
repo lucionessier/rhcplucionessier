@@ -1,0 +1,12 @@
+/* Estilos de formulario */
+
+
+label,input {
+    color: $color-principal;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-check-input:checked {
+    background-color: #e42c2a;
+    border-color: #e42c2a;
+}

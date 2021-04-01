@@ -1,0 +1,139 @@
+/* Sección Discografía */
+
+div.grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    justify-content: space-around;
+}
+
+.fecha {
+    font-weight: bold;
+    font-style: italic;
+    color: $color-secundario;
+}
+
+div.rayado img.imagen-logo-blanco-relative {
+    position: relative;
+    left: 250px;
+    bottom: 320px;
+    z-index: -1;
+}
+
+
+div.rayado img.imagen-logo-rojo-relative {
+    @extend .imagen-logo-blanco-relative;
+}
+
+@media only screen and (max-width:480px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        bottom: 100px;
+        left: 5px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        bottom: 100px;
+        left: 5px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        left: 0px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        left: 0px;
+        z-index: -1;
+    }
+}
+
+
+@media only screen and (min-width:769px) and (max-width:910px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        bottom: 100px;
+        left: 10px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        right: 5px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width:911px) and (max-width:1024px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        bottom: 320px;
+        left: 100px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        bottom: 320px;
+        left: 100px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        bottom: 320px;
+        left: 180px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        bottom: 320px;
+        left: 180px;
+        z-index: -1;
+    }
+}
+
+div.disco  {
+    img {
+        max-width: 100%;
+        filter: gray;
+        -webkit-filter: grayscale(1);
+                filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+
+        &:hover {
+            -webkit-filter: grayscale(0);
+                    filter: grayscale(0);
+            -moz-filter: grayscale(0);
+            -o-filter: grayscale(0);
+            -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.disco {
+        img {
+            margin-top: 150px;
+        }
+    }
+}
+

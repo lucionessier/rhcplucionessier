@@ -1,0 +1,107 @@
+/*Estilos elementos */
+
+
+    h1 {
+        color: $color-principal;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+        text-align: center;
+        font-size: 3.5em;
+        font-weight: bold;
+
+        &::after {
+            content: '';
+            margin: 0 auto;
+            background-image: url(/img/separador.png);
+            height: 30px;
+            width: 120px;
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width: 420px) {
+        h1 {
+        color: $color-principal;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: bold;
+        }
+
+        h2 {
+            color: $color-principal;
+            font-family: 'Rubik', sans-serif;
+            text-transform: uppercase;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em !important;
+        }
+
+        h3 {
+            color: $color-principal;
+            font-family: 'Rubik', sans-serif;
+            text-transform: uppercase;
+            padding: 20px;
+            font-size: 1em !important;
+        }
+    } 
+
+    h2 {
+        color: $color-principal;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    h3 {
+        color: $color-principal;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+
+    h4 {
+        color: $color-secundario;
+    }
+
+    p {
+        color: $color-secundario;
+        font-family: 'Rubik', sans-serif;
+        padding: 10px;
+        display: inline;
+    }
+
+    .italica {
+        font-style: italic;
+    }
+
+    ul li {
+        text-decoration: none;
+        color: $color-secundario;
+        font-family: 'Rubik', sans-serif;
+        font-style: italic;
+        list-style: none;
+    }
+
+    .centrarTexto {
+        text-align: center;
+        margin-bottom: 30px;
+
+        &::after {
+            content: '';
+            margin: 0 auto;
+            background-image: url(/img/separador.png);
+            height: 30px;
+            width: 120px;
+            display: block;
+        }
+    }
+    
+    body {
+        background-color: black !important;
+    }

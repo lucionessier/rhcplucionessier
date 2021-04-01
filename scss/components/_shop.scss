@@ -1,0 +1,44 @@
+section.shop-margin {
+    margin-top: 5em;
+}
+
+.bottom-margin {
+    margin-bottom: 1.5em;
+}
+
+.precio {
+    font-size: 1.5em;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+.descripcion {
+    font-size: 1.2em;
+    color: $color-principal;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    &:hover {
+        border: 2px solid $color-principal;
+        -webkit-transform: scale(1.03);
+                transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+    }
+}

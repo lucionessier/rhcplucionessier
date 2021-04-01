@@ -1,0 +1,48 @@
+div.imagen-neon {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    div.imagen-neon {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 70%;
+    }
+}
+
+div.imagen-miembros {
+    padding: 20px;
+}
+
+div.imagen-miembros img {
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    
+
+    &:hover {
+        filter: gray;
+        -webkit-filter: grayscale(1);
+                filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        -moz-tranform: scale(1.1);
+        -o-transform: scale(1.1);
+        max-width: 100%;
+        -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+
+    }
+}
+
+.centrado {
+    text-align: center;
+}

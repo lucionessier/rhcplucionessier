@@ -1,0 +1,59 @@
+/* Botones */
+
+.boton {
+    background-color: transparent;
+    color: $color-secundario;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid $color-secundario;
+    text-transform: uppercase;
+    margin: 10px;
+
+    &:hover {
+        background-color: $color-principal;
+        color: $color-secundario;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid $color-principal;
+    }
+}
+
+
+.boton-dropdown {
+    background-color: transparent;
+    color: $color-secundario;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid $color-secundario;
+
+    &:hover {
+        background-color: $color-principal;
+        color: $color-secundario;
+        border-radius: 3px;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid $color-principal;
+    }
+}
+
+.boton-shop {
+    background-color: transparent;
+    color: $color-principal;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid $color-principal;
+    
+
+    &:hover {
+        background-color: $color-principal;
+        color: $color-secundario;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid $color-principal;
+    }
+}

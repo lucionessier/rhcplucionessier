@@ -1,0 +1,269 @@
+/* Estilos seccion tours */
+
+
+.tours-title {
+    color: $color-principal;
+    font-size: 9em;
+    position: relative;
+    font-family: 'Rubik Mono One', sans-serif;
+    bottom: -30px;
+    letter-spacing: 30px;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block;
+
+    &:hover {
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+                
+        max-width: 100%;
+        -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+    }
+}
+
+.white {
+    font-size: 9em;
+    position: relative;
+    font-family: 'Rubik Mono One', sans-serif;
+    bottom: -30px;
+    letter-spacing: 30px;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block;
+    color: $color-secundario;
+    bottom: 200px;
+    right: 10px;
+}
+
+.span-background {
+    color: $color-secundario;
+    background-color: $color-principal;
+    font-style: italic;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: $color-principal!important;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    text-transform: uppercase;
+    font-style: normal;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid $color-principal;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+.btn-secondary:focus {
+    color: #fff;
+    background-color: $color-principal;
+    border-color: $color-principal !important;
+    box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+}
+
+@media only screen and (max-width: 320px) {
+    .tours-title {
+        color: $color-principal;
+        font-size: 1.4em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 10px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+    
+        &:hover {
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05);
+            max-width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+        }
+    }
+    
+    .white {
+        font-size: 1.4em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 50px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+        color: $color-secundario;
+        bottom: 80px;
+        right: 1px;
+    }
+}
+
+
+@media only screen and (min-width:321px) and (max-width: 480px) {
+    .tours-title {
+        color: $color-principal;
+        font-size: 2.4em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 10px;
+        right: 15px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+    
+        &:hover {
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05);
+            max-width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+        }
+    }
+    
+    .white {
+        font-size: 2.4em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 10px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+        color: $color-secundario;
+        bottom: 100px;
+        right: 15px;
+    }
+}
+
+
+@media only screen and (min-width:481px) and (max-width: 600px) {
+    .tours-title {
+        color: $color-principal;
+        font-size: 4.2em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 10px;
+        right: 15px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+    
+        &:hover {
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05);
+            max-width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            
+        }
+    }
+    
+    .white {
+        font-size: 4.2em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+        color: $color-secundario;
+        bottom: 130px;
+        right: 20px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 768px) {
+    .tours-title {
+        color: $color-principal;
+        font-size: 6em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 10px;
+        right: 15px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+    
+        &:hover {
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05);
+            max-width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+        }
+    }
+    
+    .white {
+        font-size: 6em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+        color: $color-secundario;
+        bottom: 170px;
+        right: 20px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+    .tours-title {
+        color: $color-principal;
+        font-size: 7.5em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        bottom: 10px;
+        right: 15px;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+    
+        &:hover {
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05);
+            max-width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+        }
+    }
+    
+    .white {
+        font-size: 7.5em;
+        position: relative;
+        font-family: 'Rubik Mono One', sans-serif;
+        letter-spacing: 10px;
+        text-align: center;
+        width: 100% !important;
+        display: inline-block;
+        color: $color-secundario;
+        bottom: 200px;
+        right: 20px;
+    }
+}
