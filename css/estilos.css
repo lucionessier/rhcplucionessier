@@ -67,7 +67,7 @@ h1 {
 h1::after {
   content: "";
   margin: 0 auto;
-  background-image: url(/img/separador.png);
+  background-image: url(img/separador.png);
   height: 30px;
   width: 120px;
   display: block;
@@ -147,7 +147,7 @@ ul li {
 .centrarTexto::after {
   content: "";
   margin: 0 auto;
-  background-image: url(/img/separador.png);
+  background-image: url(img/separador.png);
   height: 30px;
   width: 120px;
   display: block;
