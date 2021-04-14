@@ -67,7 +67,7 @@ h1 {
 h1::after {
   content: "";
   margin: 0 auto;
-  background-image: url(img/separador.png);
+  background-image: url(/img/separador.png);
   height: 30px;
   width: 120px;
   display: block;
@@ -147,7 +147,7 @@ ul li {
 .centrarTexto::after {
   content: "";
   margin: 0 auto;
-  background-image: url(img/separador.png);
+  background-image: url(/img/separador.png);
   height: 30px;
   width: 120px;
   display: block;
@@ -525,6 +525,11 @@ div.paginacion a:active {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 360px) {
+  .slider-padding {
+    padding-top: 70px;
+  }
+}
 /* Estilos seccion tours */
 .tours-title {
   color: #e42c2a;
@@ -638,7 +643,7 @@ div.paginacion a:active {
     font-size: 2.4em;
     position: relative;
     font-family: "Rubik Mono One", sans-serif;
-    bottom: 10px;
+    bottom: 20px;
     right: 15px;
     letter-spacing: 10px;
     text-align: center;

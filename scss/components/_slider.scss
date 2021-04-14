@@ -4,3 +4,9 @@
     padding-top: 50px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 360px) {
+    .slider-padding {
+        padding-top: 70px;
+    }
+}
