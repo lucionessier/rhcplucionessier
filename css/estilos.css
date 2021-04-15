@@ -548,6 +548,7 @@ div.paginacion a:active {
   text-align: center;
   width: 100% !important;
   display: inline-block;
+  margin-top: 50px;
 }
 .tours-title:hover {
   -webkit-transform: scale(1.05);
@@ -571,6 +572,7 @@ div.paginacion a:active {
   color: white;
   bottom: 200px;
   right: 10px;
+  margin-top: 20px;
 }
 
 .span-background {
@@ -619,6 +621,7 @@ div.paginacion a:active {
     text-align: center;
     width: 100% !important;
     display: inline-block;
+    margin-top: 50px;
   }
   .tours-title:hover {
     -webkit-transform: scale(1.05);
@@ -642,6 +645,7 @@ div.paginacion a:active {
     color: white;
     bottom: 80px;
     right: 1px;
+    margin-top: -10px;
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -656,6 +660,7 @@ div.paginacion a:active {
     text-align: center;
     width: 100% !important;
     display: inline-block;
+    margin-top: 20px;
   }
   .tours-title:hover {
     -webkit-transform: scale(1.05);
@@ -679,6 +684,7 @@ div.paginacion a:active {
     color: white;
     bottom: 100px;
     right: 15px;
+    margin-top: -10px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -693,6 +699,7 @@ div.paginacion a:active {
     text-align: center;
     width: 100% !important;
     display: inline-block;
+    margin-top: 20px;
   }
   .tours-title:hover {
     -webkit-transform: scale(1.05);
@@ -715,6 +722,7 @@ div.paginacion a:active {
     color: white;
     bottom: 130px;
     right: 20px;
+    margin-top: -10px;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -729,6 +737,7 @@ div.paginacion a:active {
     text-align: center;
     width: 100% !important;
     display: inline-block;
+    margin-top: 20px;
   }
   .tours-title:hover {
     -webkit-transform: scale(1.05);
@@ -751,6 +760,7 @@ div.paginacion a:active {
     color: white;
     bottom: 170px;
     right: 20px;
+    margin-top: -10px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -765,6 +775,7 @@ div.paginacion a:active {
     text-align: center;
     width: 100% !important;
     display: inline-block;
+    margin-top: 20px;
   }
   .tours-title:hover {
     -webkit-transform: scale(1.05);
@@ -787,8 +798,21 @@ div.paginacion a:active {
     color: white;
     bottom: 200px;
     right: 20px;
+    margin-top: -10px;
   }
 }
+.parallax {
+  /* Imagen de fondo */
+  background-image: url("/img/tours.jpg");
+  /* Altura mínima */
+  min-height: 500px;
+  /* Efecto parallax de fondo */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 section.shop-margin {
   margin-top: 5em;
 }
