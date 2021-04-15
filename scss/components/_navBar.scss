@@ -25,6 +25,15 @@ nav a {
         color: $color-secundario;
         border-bottom: 3px solid $color-secundario;
     }
+
+}
+
+.logo {
+    border-bottom: none;
+
+    &:hover {
+        border-bottom: none;
+    }
 }
 
 .navbar-dark {
