@@ -240,7 +240,7 @@
     }
 }
 
-@media only screen and (min-width:769px) and (max-width: 1024px) {
+@media only screen and (min-width:769px) and (max-width: 2560px) {
     .tours-title {
         color: $color-principal;
         font-size: 7.5em;
@@ -255,8 +255,8 @@
         margin-top: 20px;
     
         &:hover {
-            -webkit-transform: scale(1.05);
-                    transform: scale(1.05);
+            -webkit-transform: scale(1.03);
+                    transform: scale(1.03);
             max-width: 100%;
             -webkit-transition: all .5s ease-in-out;
                     transition: all .5s ease-in-out;

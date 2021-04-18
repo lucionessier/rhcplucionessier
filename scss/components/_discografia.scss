@@ -87,7 +87,7 @@ div.rayado img.imagen-logo-rojo-relative {
     }
 }
 
-@media only screen and (min-width:1025px) and (max-width: 1200px) {
+@media only screen and (min-width:1025px) and (max-width: 1220px) {
     div.rayado img.imagen-logo-blanco-relative {
         position: relative;
         bottom: 320px;
@@ -99,6 +99,38 @@ div.rayado img.imagen-logo-rojo-relative {
         position: relative;
         bottom: 320px;
         left: 180px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width:1221px) and (max-width: 1760px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        bottom: 320px;
+        left: 350px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        bottom: 320px;
+        left: 350px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width:1761px) and (max-width: 2560px) {
+    div.rayado img.imagen-logo-blanco-relative {
+        position: relative;
+        bottom: 320px;
+        left: 400px;
+        z-index: -1;
+    }
+
+    div.rayado img.imagen-logo-rojo-relative {
+        position: relative;
+        bottom: 320px;
+        left: 400px;
         z-index: -1;
     }
 }

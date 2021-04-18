@@ -362,7 +362,7 @@ div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-rela
     z-index: -1;
   }
 }
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+@media only screen and (min-width: 1025px) and (max-width: 1220px) {
   div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-relative {
     position: relative;
     bottom: 320px;
@@ -374,6 +374,36 @@ div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-rela
     position: relative;
     bottom: 320px;
     left: 180px;
+    z-index: -1;
+  }
+}
+@media only screen and (min-width: 1221px) and (max-width: 1760px) {
+  div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-relative {
+    position: relative;
+    bottom: 320px;
+    left: 350px;
+    z-index: -1;
+  }
+
+  div.rayado img.imagen-logo-rojo-relative {
+    position: relative;
+    bottom: 320px;
+    left: 350px;
+    z-index: -1;
+  }
+}
+@media only screen and (min-width: 1761px) and (max-width: 2560px) {
+  div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-relative {
+    position: relative;
+    bottom: 320px;
+    left: 400px;
+    z-index: -1;
+  }
+
+  div.rayado img.imagen-logo-rojo-relative {
+    position: relative;
+    bottom: 320px;
+    left: 400px;
     z-index: -1;
   }
 }
@@ -763,7 +793,7 @@ div.paginacion a:active {
     margin-top: -10px;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 2560px) {
   .tours-title {
     color: #e42c2a;
     font-size: 7.5em;
@@ -778,8 +808,8 @@ div.paginacion a:active {
     margin-top: 20px;
   }
   .tours-title:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
     max-width: 100%;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
