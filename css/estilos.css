@@ -381,14 +381,14 @@ div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-rela
   div.rayado img.imagen-logo-blanco-relative, div.rayado img.imagen-logo-rojo-relative {
     position: relative;
     bottom: 320px;
-    left: 350px;
+    left: 250px;
     z-index: -1;
   }
 
   div.rayado img.imagen-logo-rojo-relative {
     position: relative;
     bottom: 320px;
-    left: 350px;
+    left: 250px;
     z-index: -1;
   }
 }
